@@ -41,6 +41,7 @@ class Home extends StatelessWidget {
                         debugPrint('Card tapped.');
                       },
                       child: Stack(
+                        alignment: Alignment.center,
                         children: [
                           Padding(
                             padding: const EdgeInsets.fromLTRB(10, 10, 10, 50),
@@ -56,7 +57,6 @@ class Home extends StatelessWidget {
                           ),
                           Positioned(
                             bottom: 6,
-                            left: 6,
                             child: Container(
                               padding: EdgeInsets.symmetric(
                                   vertical: 4, horizontal: 15),
@@ -95,6 +95,7 @@ class Home extends StatelessWidget {
                         debugPrint('Card tapped.');
                       },
                       child: Stack(
+                        alignment: Alignment.center,
                         children: [
                           Padding(
                             padding: EdgeInsets.fromLTRB(10, 10, 10, 50),
