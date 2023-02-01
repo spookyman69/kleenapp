@@ -4,13 +4,7 @@ import 'package:kleenapp/pages/home.dart';
 void main() {
   runApp(
     MaterialApp(
-      routes: {
-        '/':(context) => Home(),
-        // '/home':
-        // 'shop':(context) => ,
-        // 'profile':(context) => ,
-        // 'categories':(context) => ,
-      },
+      home: Home(),
     )
   );
 }
